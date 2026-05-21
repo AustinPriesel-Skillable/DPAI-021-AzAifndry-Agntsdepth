@@ -161,12 +161,12 @@ will be using throughout the lab.
 ### Task 4: Provision Services and deploy application to Azure
 
 1. In the infra folder, select the main.bicep file to open it.
-    
-	![](https://raw.githubusercontent.com/technofocus-pte/AzAifndry-Agntsdepth/refs/heads/Cloudslice/Labguides/Usecase%2004/media/img4.png)
 
-2 Navigate to the C:\LabFiles\ directory, select the **main.bicep.txt** file, and open it.
+   [](https://raw.githubusercontent.com/technofocus-pte/AzAifndry-Agntsdepth/refs/heads/Cloudslice/Labguides/Usecase%2004/media/img4.png)
 
-	![](https://raw.githubusercontent.com/technofocus-pte/AzAifndry-Agntsdepth/refs/heads/Cloudslice/Labguides/Usecase%2004/media/img5.png)
+2. Navigate to the C:\LabFiles\ directory, select the **main.bicep.txt** file, and open it.
+
+    ![](https://raw.githubusercontent.com/technofocus-pte/AzAifndry-Agntsdepth/refs/heads/Cloudslice/Labguides/Usecase%2004/media/img5.png)
 
 3. Copy the code and replace the contents of the main.bicep file in the Codespace.
    
@@ -199,8 +199,7 @@ will be using throughout the lab.
 
     +++azd env new+++
 	
-	Enter environment name: +++ragpgpy@lab.LabInstance.Id+++
-    
+	Enter environment name: +++env@lab.LabInstance.Id+++
 
     ![](https://raw.githubusercontent.com/technofocus-pte/AzAifndry-Agntsdepth/refs/heads/Cloudslice/Labguides/Usecase%2004/media/image22.png)
 	
@@ -215,6 +214,7 @@ will be using throughout the lab.
 
     +++azd up+++
 
+	>[!Alert] If asked for a **LabInstance ID**, enter +++@lab.LabInstance.Id+++
     
 7.  When prompted, select your **subscription - @lab.CloudSubscription.Name** to create the resources and
     select the region **@lab.CloudResourceGroup(ResourceGroup1).Location**.
@@ -226,12 +226,12 @@ will be using throughout the lab.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/AzAifndry-Agntsdepth/refs/heads/Cloudslice/Labguides/Usecase%2004/media/image26.png)
 
-9.  Provisioning resource will take around 15-16 min. Click **Yes** if
+10. Provisioning resource will take around 15-16 min. Click **Yes** if
     prompted.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/AzAifndry-Agntsdepth/refs/heads/Cloudslice/Labguides/Usecase%2004/media/image27.png)
 
-10. Wait for the template to provision all resource successfully.
+11. Wait for the template to provision all resource successfully.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/AzAifndry-Agntsdepth/refs/heads/Cloudslice/Labguides/Usecase%2004/media/image28.png)
 
