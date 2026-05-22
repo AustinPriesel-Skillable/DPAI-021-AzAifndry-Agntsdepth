@@ -213,11 +213,11 @@ will be using throughout the lab.
     resources and deploy the code.
 
     +++azd up+++
-
-	>[!Alert] If asked for a **LabInstance ID**, enter +++@lab.LabInstance.Id+++
     
 7.  When prompted, select your **subscription - @lab.CloudSubscription.Name** to create the resources and
     select the region **@lab.CloudResourceGroup(ResourceGroup1).Location**.
+
+	>[!Alert] If asked for a **LabInstance ID**, enter +++@lab.LabInstance.Id+++
 
     ![](https://raw.githubusercontent.com/technofocus-pte/AzAifndry-Agntsdepth/refs/heads/Cloudslice/Labguides/Usecase%2004/media/img3.png)
 
