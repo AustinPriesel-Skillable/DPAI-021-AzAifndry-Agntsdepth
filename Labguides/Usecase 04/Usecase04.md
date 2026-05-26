@@ -215,14 +215,14 @@ will be using throughout the lab.
     +++azd up+++
     
 7.  When prompted, select your **subscription - @lab.CloudSubscription.Name** to create the resources and
-    select the region **@lab.CloudResourceGroup(ResourceGroup1).Location**.
+    select the region **Japaneast**.
 
 	>[!Alert] If asked for a **LabInstance ID**, enter +++@lab.LabInstance.Id+++
 
     ![](https://raw.githubusercontent.com/technofocus-pte/AzAifndry-Agntsdepth/refs/heads/Cloudslice/Labguides/Usecase%2004/media/img3.png)
 
 8.  When prompted, **enter a value for the 'openAILocation'
-    infrastructure parameter** select the region **@lab.CloudResourceGroup(ResourceGroup1).Location**
+    infrastructure parameter** select the region **Japaneast**
 
     ![](https://raw.githubusercontent.com/technofocus-pte/AzAifndry-Agntsdepth/refs/heads/Cloudslice/Labguides/Usecase%2004/media/image26.png)
 
