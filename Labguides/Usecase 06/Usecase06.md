@@ -231,8 +231,9 @@ incorrect.](./media/image21.png)
     ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image22.png)
 
-4.  Run azd up - This will provision Azure resources
+4.  Run the following commands to set the resource location region and to deploy the necessary resources - This will provision Azure resources
 
+    +++azd env set AZURE_LOCATION centralus+++
     +++azd up+++
 
     ![A screenshot of a computer AI-generated content may be
